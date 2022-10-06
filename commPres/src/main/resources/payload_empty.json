@@ -1,0 +1,53 @@
+{
+  "startDate": "",
+  "submitDate": "",
+  "answers": [
+    {
+      "questionId": "r875d2dc4d7f2424fa89121d343f9e626",
+      "answer1": ""
+    },
+    {
+      "questionId": "rbf48bed74e064dd399073656bb7f1dc0",
+      "answer1": ""
+    },
+    {
+      "questionId": "r5e06b1e0590444e98ab5015075721733",
+      "answer1": "Bachelor Switch2IT"
+    },
+    {
+      "questionId": "r0a0618a16063431f96e093c80dd7ad75",
+      "answer1": "Jaar 2"
+    },
+    {
+      "questionId": "r38904b1e7ace4b33b98628a47ee48b59",
+      "answer1": ""
+    },
+    {
+      "questionId": "r2a5963384c5e4b399c5e53c68746eac5",
+      "answer1": ""
+    },
+    {
+      "questionId": "rb449237842644b5da5b8e24cdf5606db",
+      "answer1": null
+    },
+    {
+      "questionId": "rc9b9ba13a12d4212b8977f90f96d6080",
+      "answer1": "Ik verklaar op eer dat de door mij verstrekte gegevens correct zijn."
+    },
+    {
+      "questionId": "rfc4aaf848ee448bbb7add2e272e6f803",
+      "answer1": {
+        "id": 4,
+        "key": "32137fcd-2762-402a-8068-dbdcc9f9c5f1"
+      }
+    },
+    {
+      "questionId": "r883532dd7aa940d580a6ff78835e5f48",
+      "answer1": {
+        "id": 4,
+        "key": "32137fcd-2762-402a-8068-dbdcc9f9c5f1"
+      }
+    }
+  ],
+  "emailReceiptConsent": false
+}
