@@ -1,30 +1,38 @@
-# eclipse
-bin
-*.launch
-.settings
-.metadata
-.classpath
-.project
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
 
-# idea
-out
-*.ipr
+### IntelliJ IDEA ###
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
 *.iws
 *.iml
-.idea
+*.ipr
 
-# gradle
-build
-.gradle
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
 
-# other
-eclipse
-run
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
 
-# Files from Forge MDK
-forge*changelog.txt
-/CREDITS.txt
-/LICENSE.txt
-/README.txt
-/changelog.txt
-/gradle/
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store

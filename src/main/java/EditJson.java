@@ -1,4 +1,7 @@
-import com.google.gson.*;
+import com.google.gson.JsonArray;
+import com.google.gson.JsonElement;
+import com.google.gson.JsonObject;
+import com.google.gson.JsonParser;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpPost;
@@ -54,11 +57,11 @@ public class EditJson {
         for (JsonElement element : array) {
             JsonObject editable = element.getAsJsonObject();
             String id = editable.get("questionId").getAsString();
-            if(id.equals(Qvoornaam))
+            if (id.equals(Qvoornaam))
                 editable.add("answer1", JsonParser.parseString(naam));
-            if(id.equals(Qachternaam))
+            if (id.equals(Qachternaam))
                 editable.add("answer1", JsonParser.parseString(achternaam));
-            if(id.equals(QDatumWeekEind) || id.equals(QDatumWeekStart))
+            if (id.equals(QDatumWeekEind) || id.equals(QDatumWeekStart))
                 editable.add("answer1", JsonParser.parseString(datum));
 
             newArray.add(editable);
